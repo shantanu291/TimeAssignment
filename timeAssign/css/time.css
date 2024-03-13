@@ -1,0 +1,122 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.border{
+    border: 1px solid red;
+}
+.border2{
+    border: 1px solid green;
+}
+.flex{
+    display: flex;
+}
+.navbar{
+    display: flex;
+    border: 1px solid grey;
+    align-items: center;
+    justify-content: space-between;
+    padding:0.5rem;
+ 
+}
+
+.nav_logo{
+    width: 100px;
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 30px;
+    align-items: center;
+    cursor: pointer;
+
+}
+.nav_logo>p>i{
+    font-size: 30px;
+}
+.nav_logo>h1{
+    color: red;
+    font-weight: 800;
+    font-size :2rem;
+    margin-right: 1rem;
+
+}
+.search_nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 20rem;
+}
+.search_logo{
+    margin: 0.5rem;
+}
+.search_nav>input{
+    border: 1px solid transparent;
+    height: 59px;
+        cursor: pointer;
+}
+
+/* header section */
+
+.header_title{
+    width: 80%;
+    margin: auto;
+    text-transform: uppercase;
+}
+
+.header_wrapper{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    height: 70vh;
+}
+.featured_header{
+    line-height: 2rem;
+}
+.featured_header>h3{
+ color: red;
+ font-size: 1.5rem;
+ text-transform: capitalize;
+ margin-top: 2rem;
+ cursor: pointer;
+
+}
+.featured_header>h3+p{
+    font-size: 1rem;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.featured_header>h3,p:hover{
+    color:red;
+
+}
+
+/* latest stories div */
+ .latest_stories{
+    background-color: yellow;
+    padding: 2rem;
+    position:relative;
+    top: -2.3rem;
+    line-height: 1.25rem;
+    font-size: 1.3rem;
+    font-weight:300;
+    width: 500px;
+    height: min-content;
+    margin-right: 1.2rem;
+ }
+ .latest_stories>h1{
+    text-align: center;
+    padding-bottom: 1rem;
+ }
+ .stories_title{
+    list-style: none;
+}
+.stories_title>li,span{
+   /* border: 1px solid red; */
+   padding-left: 1.5rem;
+   font-size: small;
+   cursor: pointer;
+}
+
+.jan{
+    color: lightslategray;
+}
